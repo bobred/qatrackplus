@@ -230,6 +230,7 @@ FIXTURE_DIRS = (
 
 # ------------------------------------------------------------------------------
 INSTALLED_APPS = [
+    'admin_views',
     'django.contrib.admin',
     'django.contrib.contenttypes',
     'django.contrib.auth',
@@ -266,7 +267,6 @@ INSTALLED_APPS = [
     'qatrack.faults',
     'qatrack.attachments',
     'qatrack.reports',
-    'admin_views',
 ]
 
 
